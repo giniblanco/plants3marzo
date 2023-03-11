@@ -1,0 +1,58 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Species__c",
+                "referenceId": "Species__cRef1"
+            },
+            "Description__c": "Conocida por sus propiedades medicinales y aplicaciones para la piel",
+            "Ideal_Max_Temperature__c": 25,
+            "Ideal_Min_Temperature__c": null,
+            "Image_URL__c": "https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/aloe-vera-white-pot_sunwand24-ss_edit.jpg",
+            "Light_Notes__c": null,
+            "Light__c": null,
+            "Location__c": "Outdoors",
+            "Name": "Aloe vera",
+            "Pulverization__c": false,
+            "Sowing__c": null,
+            "Summer_Watering_Frequency__c": null,
+            "Type__c": "Ornamental"
+        },
+        {
+            "attributes": {
+                "type": "Species__c",
+                "referenceId": "Species__cRef2"
+            },
+            "Description__c": "lantas de porte arbustivo o trepador perennifolias, caducifolias o semicaducifolias. Los tallos son cuadrangulares, de color verde o grisáceo, profusamente ramificados. Hojas dispuestas de forma alterna u opuesta; pueden ser trifoliadas o imparipinnadas.",
+            "Ideal_Max_Temperature__c": 38,
+            "Ideal_Min_Temperature__c": 15,
+            "Image_URL__c": "https://img.crocdn.co.uk/images/products2/pl/00/00/00/16/pl0000001668.jpg?width=940&height=940",
+            "Light_Notes__c": "Necesitan luz en abundancia, sobre todo si están en el interior; en el exterior pueden estar a pleno sol o semisombra.",
+            "Light__c": "Full Sun,;Half-shade",
+            "Location__c": "Indoors;Outdoors",
+            "Name": "Jazmín común",
+            "Pulverization__c": false,
+            "Sowing__c": "JUL",
+            "Summer_Watering_Frequency__c": "Daily",
+            "Type__c": "Ornamental"
+        },
+        {
+            "attributes": {
+                "type": "Species__c",
+                "referenceId": "Species__cRef3"
+            },
+            "Description__c": "Es una planta herbácea perenne con rizomas rastreros, tallos de 40 a 120 cm de altura, de aspecto sedoso-blanquecino, erguidos y pubescentes. Olor no muy aromático.",
+            "Ideal_Max_Temperature__c": 38,
+            "Ideal_Min_Temperature__c": 15,
+            "Image_URL__c": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Mentha_longifolia_2005.08.02_09.53.56.jpg",
+            "Light_Notes__c": null,
+            "Light__c": "Full Sun,",
+            "Location__c": "Outdoors",
+            "Name": "Menta de caballo",
+            "Pulverization__c": false,
+            "Sowing__c": "JUL",
+            "Summer_Watering_Frequency__c": "Daily",
+            "Type__c": "Ornamental"
+        }
+    ]
+}
