@@ -1,13 +1,29 @@
 <template>
-    <lightning-card  title={species.Name} icon-name="custom:custom5">
-        <lightning-button label="View Details" slot="actions"></lightning-button>
-        <!-- body start-->
-        <p class="slds-var-p-horizontal_small">{species.Description}</p>
-        <img class="species slds-align_absolute-center slds-var-m-around_medium"
-        src={species.Image_URL__c}
-        alt={species.Name}
-        /> 
-        <p class="slds-var-p-horizontal_small">{species.Location__c}</p>
-         <!-- body end-->
-    </lightning-card>
+    <div class="slds-align_absolute-center">
+        <lightning-card  title={species.Name} icon-name="custom:custom5">
+            <lightning-button 
+            label="View Details" 
+            slot="actions" 
+            onclick={navigateToRecordViewPage}
+            ></lightning-button>
+            <!-- body start-->
+            <p class="slds-var-p-horizontal_small">{species.Description__c}</p>
+            <img 
+            class="species slds-var-m-around_medium"
+            src={species.Image_URL__c}
+            alt={species.Name}
+            /> 
+            <div class="slds-var-p-horizontal_small slds-align_absolute-center">
+                <template lwc:if={isOutdoors}>
+                    <!-- mostrar icono sol-->
+                    <lightning-icon icon-name="custom:custom3" alternative-text="Outdoors" title="Outdoors"> </lightning-icon>
+                </template>    
+                <template lwc:if={isIndoors}>
+                    <!-- mostrar icono casa-->
+                    <lightning-icon icon-name="standard:home" alternative-text="Indoors" title="Indoors"> </lightning-icon>
+                </template>
+            </div>                
+            <!-- body end-->            
+        </lightning-card>
+    </div>
 </template>
